@@ -9,6 +9,7 @@ $dao = new Dao();
     <title>History</title>
 </head>
 
+<?php $_SESSION["page"] = "history"; ?>
 <div class="direc">>History Page</div>
 <div class="contant">
     <div class="historyTable">

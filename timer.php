@@ -3,10 +3,10 @@
 <head>
     <title>Timer</title>
 </head>
-
+<?php $_SESSION["page"] = "timer"; ?>
 <div class="direc">>Timer Page</div>
 
-<div class="contant timer">
+<div class="contant">
     <div class="boxTimer">
         <?php
             if (!isset($_SESSION['username'])){?>
@@ -16,12 +16,15 @@
         <?php if (isset($_SESSION['message'])){?>
         <div class="<?php echo $_SESSION['bad']?>"><?php echo $_SESSION['message'] ?></div>
         <?php } ?>
+
+
+        
         <form action="saveData.php" method="post">
 
             <label for="tname">Name of the task:</label>
-            <input type="text" name="taskName" id="tname" placeholder="Name the task"/> <br />
+            <input type="text" name="taskName" id="tname" placeholder="Name the task"/> <div id="fillError">Give the task a name</div> <br />
             <label for="nOfx">Number of X's: (It should input the char x only)</label>
-            <input type="text" name="xCount" id="nOfx" placeholder="..." /> <br />
+            <input type="text" name="xCount" id="nOfx" placeholder="..." /><br />
 
 
             <input type="checkbox" name="done" value="on" id="don"><label for="don">Done?</label><br />

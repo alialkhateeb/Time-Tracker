@@ -128,7 +128,7 @@ for history.php
 
 .boxLogin {
     margin-left: 35%;
-    width: 25%;
+    width: 29%;
     height: 60%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -237,6 +237,29 @@ td{
 
 .logoutBox{
   display: flex;
-  
 
+
+}
+
+#timer{
+  font-size: 30px;
+  color: red;
+}
+
+.labe{
+  font-size: 14px;
+}
+
+#fillError{
+    display: none;
+    color: red;
+    width: 500px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.frontPage{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }

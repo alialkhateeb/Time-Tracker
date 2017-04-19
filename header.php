@@ -2,9 +2,16 @@
 
 <html>
     <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="./style.css">
-	   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
         <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+
+        <script src="js/jquar.js" type="text/javascript"></script>
+
+        
 
     </head>
     <body>
@@ -23,6 +30,7 @@
             <ul>
                 <li class="option">
                     <a href="index.php">Home</a>
+
                 </li>
                 <li class="option">
                     <a href="timer.php">Timer</a>

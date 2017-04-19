@@ -5,7 +5,7 @@
 
     $user = htmlentities($_POST["username"]);
     $password = htmlentities($_POST['password']);
-
+    //hash password
     $hashPassword = hash("sha256", $password . "asdfqwerzxcv!@#$1234pojfaldkdfj");
 
     $_SESSION = array();

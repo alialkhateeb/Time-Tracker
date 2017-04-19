@@ -7,7 +7,7 @@
     $username = htmlentities($_POST['username']);
     $pass = htmlentities($_POST['password']);
     $email = htmlentities($_POST['email']);
-
+    //hash password
     $hashPassword = hash("sha256", $pass . "asdfqwerzxcv!@#$1234pojfaldkdfj");
 
 

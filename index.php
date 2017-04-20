@@ -8,7 +8,7 @@
 		<div class="contant">
 
         <div class="frontPage">
-            <pre>
+            <pre class="frontPage">
               This website is a project for CS401- Web Development,
                and it is a tool that help student to study better and more
                effective by recording their:
@@ -20,7 +20,7 @@
               Using timer to track the time you have spend studying, and it
               also give you a chance to record some ideas you might have while
               studying.
-              
+
               You can always come back and see what ever you have done.
             </pre>
         </div>

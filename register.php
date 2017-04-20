@@ -34,11 +34,11 @@
                     <input type="text" name="email" placeholder="Email" class="input" value="<?php echo $_SESSION["email"] ?>"/><br />
                     <input type="password" name="password" placeholder="Password" class="input"/><br />
                     <?php } else { ?>
-                      <label class="labe">Username (should be one latter at least) </label>
+                    <label class="labe" for="user">Username (should be one latter at least) </label>
                     <input type="text" name="username" placeholder="Username" class="input" id="user"/><div id="fillError" class="userError">username should be at least 1 character</div><br />
-                    <label class="labe">Email (this should accpet email format) </label>
+                    <label class="labe" for="email">Email (this should accpet email format) </label>
                     <input type="email" name="email" placeholder="Email" class="input" id="email"/><div id="fillError" class="emailError">You should follow email format</div><br />
-                    <label class="labe"> Password (length should be more then 6 characters) </label>
+                    <label class="labe" for="password"> Password (length should be more then 6 characters) </label>
                     <input type="password" name="password" placeholder="Password" class="input" id="password"/><div id="fillError" class="passwordError">password should be at least 6 characters</div><br />
                     <?php } ?>
                 </div>
